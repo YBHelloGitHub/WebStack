@@ -25,14 +25,14 @@ WordPress 版 WebStack 主题。<a href="http://webstack.iotheme.cn/">前往演�
 + 安装 WordPress ，教程百度
 + 设置伪静态（下方规则按自己服务器环境二选一）
 ```
-# Nginx规则
+# Nginx规则（推荐这个）
 location /
 {
     try_files $uri $uri/ /index.php?$args;
 }
 rewrite /wp-admin$ $scheme://$host$uri/ permanent;
 
-# Apache 规则
+# Apache 规则 - （这个试了几次不行）
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteBase /

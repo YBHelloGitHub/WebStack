@@ -696,7 +696,7 @@ function io_login_footer(){
     echo '</div><!--login-body END-->
     </div><!--login-container END-->
     <div class="footer-copyright position-absolute">
-            <span>Copyright © <a href="'. esc_url(home_url()) .'" class="text-white-50" title="'. get_bloginfo('name') .'" rel="home">'. get_bloginfo('name') .'</a>&nbsp;&nbsp;Modify by <a href="https://www.iotheme.cn" target="_blank">一为</a></span> 
+            <span>Copyright © <a href="'. esc_url(home_url()) .'" class="text-white-50" title="'. get_bloginfo('name') .'" rel="home">'. get_bloginfo('name') .'</a>&nbsp;&nbsp;</span> 
     </div>';
 }
 
